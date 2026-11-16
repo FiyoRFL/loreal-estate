@@ -7,7 +7,7 @@ App Android (WebView) con las mejores zonas de Córdoba capital para VENDER y pa
 - Los datos están en `app/src/main/assets/data/zonas.json`. La app los busca sola al abrir y cada 6 h desde este repo (rama main), y guarda la última copia para usar sin internet.
 
 ## Generar el APK
-1. Está en la carpeta `ZonasCBA` del repo público FIYODIGGER-descargas.
-2. En **Actions** corre solo "Build ZONAS CBA APK". Al terminar, el APK queda en **Releases → apk-latest** (y como artifact).
+1. Está en la carpeta `ZonasCBA` del repo público loreal-estate.
+2. En **Actions** corre solo "Build ZONAS CBA APK". Al terminar, el APK queda en **Releases → zonascba-apk-latest** (y como artifact).
 
 No es asesoramiento financiero ni una tasación.

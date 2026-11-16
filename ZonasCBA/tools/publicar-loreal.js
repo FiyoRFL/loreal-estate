@@ -7,7 +7,7 @@
 window.__pubProg = 'start';
 (async () => {
   const P = window.__PUB;
-  const RAW = 'https://raw.githubusercontent.com/FiyoRFL/FIYODIGGER-descargas/' + P.sha + '/LorealState/';
+  const RAW = 'https://raw.githubusercontent.com/FiyoRFL/loreal-estate/' + P.sha + '/LorealState/';
   const SITIO = 'https://loreal-state.netlify.app/';
   const ARCHIVOS = ['index.html', 'app.js', 'styles.css', 'config.js', 'manifest.webmanifest', 'sw.js', 'netlify.toml', 'favicon.png',
     'icon-180.png', 'icon-192.png', 'icon-512.png', 'vendor/leaflet/leaflet.js', 'vendor/leaflet/leaflet.css', 'data/zonas.json'];

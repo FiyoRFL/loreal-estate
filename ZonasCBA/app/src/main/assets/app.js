@@ -1,7 +1,7 @@
 (function () {
   'use strict';
 
-  var REMOTE = 'https://raw.githubusercontent.com/FiyoRFL/FIYODIGGER-descargas/main/ZonasCBA/app/src/main/assets/data/zonas.json';
+  var REMOTE = 'https://raw.githubusercontent.com/FiyoRFL/loreal-estate/main/ZonasCBA/app/src/main/assets/data/zonas.json';
   var HORAS_ENTRE_SYNC = 6;
 
   var $ = function (id) { return document.getElementById(id); };

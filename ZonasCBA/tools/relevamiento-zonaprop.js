@@ -85,7 +85,7 @@ window.__prog = 'start'; window.__res = {}; window.__avisos = []; window.__geoNe
 
     // Ubicar en el mapa las direcciones nuevas (con caché del repo)
     let cache = {};
-    try { cache = await fetch('https://raw.githubusercontent.com/FiyoRFL/FIYODIGGER-descargas/main/ZonasCBA/tools/geocache.json?t=' + Date.now()).then(r => r.ok ? r.json() : {}); } catch (e) { cache = {}; }
+    try { cache = await fetch('https://raw.githubusercontent.com/FiyoRFL/loreal-estate/main/ZonasCBA/tools/geocache.json?t=' + Date.now()).then(r => r.ok ? r.json() : {}); } catch (e) { cache = {}; }
     const NOMBRES = { 'nueva-cordoba': 'Nueva Córdoba', 'cerro-de-las-rosas': 'Cerro de las Rosas', 'villa-belgrano': 'Villa Belgrano', 'valle-escondido': 'Valle Escondido', 'urca': 'Urca', 'arguello-la-calera': 'Argüello', 'general-paz': 'General Paz', 'cofico': 'Cofico', 'alberdi': 'Alberdi', 'alta-cordoba': 'Alta Córdoba' };
     const pend = [...new Set(window.__avisos.filter(x => x.dir).map(x => x.dir.replace(/\s+al\s+/i, ' ') + '|' + x.z))].filter(k => !(k in cache));
     let i = 0;
