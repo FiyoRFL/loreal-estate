@@ -1,13 +1,9 @@
-# ZONAS CBA — FIYO RFL
+# ZONAS CBA — datos de LoReal Estate
 
-App Android (WebView) con las mejores zonas de Córdoba capital para VENDER y para COMPRAR.
+La app Android ya no existe: quedó solo la web de Netlify (`LorealState/`).
 
-- Mapa: OpenStreetMap por defecto; Google Maps real si cargás tu clave en ⚙ Ajustes.
-- Cada zona abre Google Maps / cómo llegar con un toque.
-- Los datos están en `app/src/main/assets/data/zonas.json`. La app los busca sola al abrir y cada 6 h desde este repo (rama main), y guarda la última copia para usar sin internet.
-
-## Generar el APK
-1. Está en la carpeta `ZonasCBA` del repo público loreal-estate.
-2. En **Actions** corre solo "Build ZONAS CBA APK". Al terminar, el APK queda en **Releases → zonascba-apk-latest** (y como artifact).
+- `app/src/main/assets/data/zonas.json`: los datos de las zonas. La web los lee en vivo desde este repo
+  (ver `DATOS_REMOTOS` en `LorealState/config.js`), así que no muevas este archivo sin cambiar esa URL y republicar.
+- `tools/`: relevamiento de Zonaprop y publicador de Netlify.
 
 No es asesoramiento financiero ni una tasación.
